@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Contenedor de proyectos */
+
+.project-container img {
+    width: 750px;
+    height: auto;
+    margin-right: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .project-section {
+        flex-direction: column !important;
+    }
+    
+    .project-container img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .project-container .description {
+        border: none;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Estilo del main */
+.main {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+/* Estilo de presentación */
+
+.texto h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.texto h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #444444;
+}
+
+.texto p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.texto aside {
+    max-width: 35%;
+    margin-left: 20px;
+}
+
+/* MIRAR*/
+.imagen-yo img {
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+/* Estilo del scroll-container */
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    background-color: #f4f4f4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-content {
+    display: flex;
+    align-items: center;
+    animation: scroll 10s linear infinite;
+}
+
+.scroll-content .item {
+    margin-top: 10px;
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.scroll-content .item-vacio {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* Animación para el scroll */
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Estilo del collage */
+.collage-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.collage-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collage-container img:hover {
+    transform: scale(1.10);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}

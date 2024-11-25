@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Paola Fucheng - Contacto </title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body class="contact-page">
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html"> Paola Fucheng </a>
+            </div>
+            <ul class="navbar-links">
+                <li> <a href="index.html"> Casita </a> </li>
+                <li> <a href="about.html"> Sobre Mí </a> </li>
+                <li class="dropdown">
+                    <a href="project.html" class="dropbtn"> Proyectos </a>
+                    <div class="dropdown-content">
+                        <a href="dev.html"> Programación </a>
+                        <a href="psycho.html"> Psicología </a>
+                        <a href="art.html"> Arte </a>
+                        <a href="write.html"> Escritura </a>
+                    </div>
+                </li>
+                <li> <a href="contact.html"> Contacto </a> </li>
+            </ul>
+        </nav>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"> </i>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+
+        <!-- FOTO DE TENERIFE :3-->
+        <div class="cafe7"> <a href="https://maps.app.goo.gl/7pDCNCCRTDA1znXq9"> <img src="assets/cafe7.jpg"> </a> </div>
+        
+        <h1> Contáctame </h1>
+
+        <br>
+        
+        <p> Si tienes trabajar y/o colaborar conmigo contáctame. </p>
+
+        <br>
+
+        <p> PD: Si eres de Tenerife te invito al Café 7 :3 </p>
+
+        
+
+        <br>
+        <div class="contact-form"> 
+            <form action="/enviar-formulario" method="POST">
+                <label for="nombre"> Nombre: </label> <br>
+                <input type="text" id="nombre" name="nombre" required> <br> <br>
+        
+                <label for="email"> Correo Electrónico: </label> <br>
+                <input type="email" id="email" name="email" required> <br> <br>
+        
+                <label for="mensaje"> Mensaje: </label> <br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea> <br> <br>
+        
+                <button type="submit"> Enviar </button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <h3> Mis redes sociales </h3>
+            <div class="social-links">
+                <a href="https://www.instagram.com/lilpxndx4/?hl=es"> <img src="assets/socials/instagram.svg"> </a>
+                <a href="https://www.facebook.com/lila.panda.96/?_rdr"> <img src="assets/socials/facebook.svg"> </a>
+                <a href="https://es.linkedin.com/in/paola-fucheng-3577332a9"> <img src="assets/socials/linkedin.svg"> </a>
+                <a href="https://github.com/PxndxDev"> <img src="assets/socials/github.svg"> </a>
+                
+            </div>
+            
+            <div class="copyright">
+                <span> &copy;  Copyright </span> <strong class="px-1 sitename"> Paola Fucheng </strong> <span> All Rights Reserved </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

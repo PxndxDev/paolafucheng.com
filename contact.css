@@ -1,0 +1,21 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+.cafe7 img {
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-right: 1000px;
+}
